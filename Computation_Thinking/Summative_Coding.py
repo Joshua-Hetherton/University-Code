@@ -19,7 +19,7 @@ def pick_present(prices):
     return "None is picked"
 
 
-prices =[7, 6, 8, 2, 3, 9, 4, 5, 1, 10]
+prices =[72, 51, 32, 21] 
 accepted_present = pick_present(prices)
 
 print(f"The accepted present: {accepted_present}")
