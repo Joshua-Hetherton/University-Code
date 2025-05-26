@@ -13,7 +13,7 @@ from tkinter import messagebox
 # =================== Other Functions ===================
 def get_field(fields, index):
     #Gets the field at the specified index, returns "N/A" if index is out of range
-    #While this mostly likely wouldnt happen in the code, the file could be edited manually, causing error
+    #While this mostly likely wouldnt happen in the code, the file could be edited manually, causing an error
 
     try:
         value = fields[index].strip()
@@ -22,7 +22,8 @@ def get_field(fields, index):
     except IndexError:
         return "N/A"
 
-
+student_filename="Semester_2\\Week_14 Summative\\students.txt"
+lecturer_filename="Semester_2\\Week_14 Summative\\lecturers.txt"
 
 # =================== GUI Setup ===================
 window=Tk()
@@ -120,7 +121,7 @@ def submit():
         messagebox.showerror("Error", "Missing Fields, Please Complete them before continuing!")
         return
     
-    out_file = open("students.txt", "a")
+    out_file = open(student_filename, "a")
     out_file.write(f"{name},{password},{email},{pronouns},{dob},{address},{term_address},{emergency_contact_name},{emergency_contact_no},{course}\n")
     out_file.close()
     print("Submitted")
@@ -155,11 +156,11 @@ def check_credentials():
         return
     #Checking User type to provide correct file
     if user_type == "Lecturer":
-        filename = "lecturers.txt"
+        filename = lecturer_filename
         is_lecturer = True
 
     else:
-        filename = "students.txt"
+        filename = student_filename
         is_lecturer = False
 
     try:
@@ -242,7 +243,7 @@ def load_student_data():
 
 
         print("Trying to load student data...")
-        in_file=open("students.txt","r")
+        in_file=open(student_filename,"r")
         lines= in_file.readlines()
         in_file.close()
 
@@ -277,7 +278,7 @@ def load_student_data():
                     lines[i] = ",".join(updated_data) + "\n"
                     break
 
-            out_file = open("students.txt", "w")
+            out_file = open(student_filename, "w")
             out_file.writelines(lines)
             out_file.close()
 
@@ -318,7 +319,7 @@ scrollbar.place(x=610, y=200, width=20, height=300)
 text_widget.config(yscrollcommand=scrollbar.set)
 
 # Reading from the students.txt file and displaying the data
-in_file =open("students.txt","r")
+in_file =open(student_filename,"r")
 for line in in_file:
         split_line = line.strip().replace('\r', '').replace('\n', '').split(",")
         # Start with the Name field on its own line:
