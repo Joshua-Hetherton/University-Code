@@ -92,13 +92,13 @@ label_names = ["Name", "Password", "Email", "Pronouns", "DOB", "Home Address", "
 
 
 for i, label_text in enumerate(label_names):
-     label=Label(student_registration,text=label_text,bg=bg_colour, font=("Arial",10), fg="#ffffff")
+     label = Label(student_registration,text=label_text,bg=bg_colour, font=("Arial",10), fg="#ffffff")
      label.place(x=170,y=170 + (i*30))
 
 # Entries
-entries=[]
+entries = []
 for i in range(len(label_names)):
-     entry=Entry(student_registration)
+     entry = Entry(student_registration)
      entry.place(x=330, y=170 + (i * 30))
      entries.append(entry)
 
@@ -129,9 +129,9 @@ def submit():
 # Back to Main Menu and Submit Button
 
 # Submit Button
-Button(student_registration, text="Submit", font=("Arial",10),bg="White", command=lambda : submit()).place(x=320,y=500)
+Button(student_registration, text = "Submit", font = ("Arial",10),bg="White", command=lambda : submit()).place(x=320,y=500)
 # Main Menu button
-Button(student_registration, text="Back to Main Menu", font=("Arial",10),bg="White", command=lambda : show_frame(main_menu)).place(x=290,y=530)
+Button(student_registration, text = "Back to Main Menu", font = ("Arial",10),bg="White", command=lambda : show_frame(main_menu)).place(x=290,y=530)
 
 
 
@@ -140,13 +140,13 @@ Button(student_registration, text="Back to Main Menu", font=("Arial",10),bg="Whi
 def check_credentials():
     global current_user, current_password, current_user_type
 
-    user_type=selected_option.get()
-    name=login_name_entry.get()
-    password=login_password_entry.get()
+    user_type = selected_option.get()
+    name= login_name_entry.get()
+    password = login_password_entry.get()
 
     # Used to access either lecturers or students text file
     filename = ""
-    is_lecturer= None
+    is_lecturer = None
 
     print(f" Name: {name}  Password: {password} Type: {user_type}")
 
@@ -155,12 +155,12 @@ def check_credentials():
         return
     #Checking User type to provide correct file
     if user_type == "Lecturer":
-        filename="lecturers.txt"
-        is_lecturer=True
+        filename = "lecturers.txt"
+        is_lecturer = True
 
     else:
-        filename="students.txt"
-        is_lecturer=False
+        filename = "students.txt"
+        is_lecturer = False
 
     try:
 
@@ -175,7 +175,7 @@ def check_credentials():
             if stored_name == name and stored_password == password:
                 print("Login Successful")
                 messagebox.showinfo("Success", "Login Successful!")
-                #Setting The Current User and Type
+                # etting The Current User and Type
                 current_user = name
                 current_password = password
                 current_user_type = user_type
@@ -186,7 +186,7 @@ def check_credentials():
                 login_name_entry.delete(0, END)
                 login_password_entry.delete(0, END)
 
-                #Placing Logout button
+                # Placing Logout button
                 logout_button.place(x=600, y=10)
 
 
@@ -208,28 +208,27 @@ def check_credentials():
 
 # GUI for Universal Login
 
-def universal_login_gui():
+    
+get_logo(universal_login,290,30)
 
-    get_logo(universal_login,290,30)
+# https://www.geeksforgeeks.org/dropdown-menus-tkinter/ used as a reference for the dropdown menu
+# Dropdown Menu for selecting user type
+selected_option = StringVar()
+selected_option.set("Student")  # Default value
+OptionMenu(universal_login,selected_option, "Student", "Lecturer").place(x=320, y=170)
 
-    # https://www.geeksforgeeks.org/dropdown-menus-tkinter/ used as a reference for the dropdown menu
-    # Dropdown Menu for selecting user type
-    selected_option = StringVar()
-    selected_option.set("Student")  # Default value
-    OptionMenu(universal_login,selected_option, "Student", "Lecturer").place(x=320, y=170)
+#Name and Password Entries
+Label(universal_login, text = "Name", font = ("Arial",10), bg = bg_colour, fg = "#ffffff").place(x=250,y=200)
+Label(universal_login, text = "Password", font = ("Arial",10), bg = bg_colour, fg = "#ffffff").place(x=250,y=240)
 
-    #Name and Password Entries
-    Label(universal_login, text="Name", font=("Arial",10), bg=bg_colour, fg="#ffffff").place(x=250,y=200)
-    Label(universal_login, text="Password", font=("Arial",10), bg=bg_colour, fg="#ffffff").place(x=250,y=240)
+login_name_entry = Entry(universal_login, width=30)
+login_name_entry.place(x=320, y=203)
 
-    login_name_entry = Entry(universal_login, width=30)
-    login_name_entry.place(x=320, y=203)
+login_password_entry = Entry(universal_login, width=30, show="*")
+login_password_entry.place(x=320, y=243)
 
-    login_password_entry = Entry(universal_login, width=30, show="*")
-    login_password_entry.place(x=320, y=243)
-
-    Button(universal_login, text="Login", font=("Arial",10), bg="White", command=lambda : check_credentials()).place(x=320,y=300)
-    Button(universal_login, text="Back to Main Menu", font=("Arial",10), bg="White", command=lambda : show_frame(main_menu)).place(x=290,y=330)
+Button(universal_login, text = "Login", font = ("Arial",10), bg = "White", command=lambda : check_credentials()).place(x=320,y=300)
+Button(universal_login, text = "Back to Main Menu", font = ("Arial",10), bg = "White", command=lambda : show_frame(main_menu)).place(x=290,y=330)
 
 
 
@@ -258,10 +257,10 @@ def load_student_data():
                 # Displaying the data in the labels
 
                 for i, label_text in enumerate(label_names):
-                    label=Label(student_data,text=f"{label_text}: ",bg=bg_colour, font=("Arial",10), fg="#ffffff")
+                    label = Label(student_data,text=f"{label_text}: ",bg=bg_colour, font=("Arial",10), fg="#ffffff")
                     label.place(x=170,y=170 + (i*30))
 
-                    entry=Entry(student_data)
+                    entry = Entry(student_data)
                     entry.place(x=330, y=170 + (i * 30))
                     entry.insert(0, get_field(split_line, i))
                     entries.append(entry)
@@ -283,11 +282,11 @@ def load_student_data():
             out_file.close()
 
             messagebox.showinfo("Success", "Data Saved")
-        save_button = Button(student_data, text="Save Changes", font=("Arial", 10), bg="White", command=save_changes)
+        save_button = Button(student_data, text = "Save Changes", font = ("Arial", 10), bg = "White", command=save_changes())
         save_button.place(x=300, y=500)
         ##Currently running into the problem where students can preview other students data
         # Add buttons inside the function so they are recreated every time
-        Button(student_data, text="Back to Main Menu", font=("Arial", 10), bg="White", command=lambda: show_frame(main_menu)).place(x=290, y=530)
+        Button(student_data, text = "Back to Main Menu", font = ("Arial", 10), bg="White", command=lambda: show_frame(main_menu)).place(x=290, y=530)
 
 
 
@@ -313,7 +312,7 @@ text_widget.place(x=50, y=200, width=600, height=300)
 # Creating Vertical Scrollbar
 scrollbar = Scrollbar(view_students, command=text_widget.yview)
 scrollbar.place(x=610, y=200, width=20, height=300)  
-# Placed to the right of the Text widget
+
 
 # Connecting scrollbar and text widget
 text_widget.config(yscrollcommand=scrollbar.set)
@@ -333,7 +332,7 @@ for line in in_file:
         
         text_widget.insert(END, "\n")  # Add an empty line after each student
 in_file.close()
-Button(view_students, text="Back to Main Menu", font=("Arial",10), bg="White", command=lambda : show_frame(main_menu)).place(x=290,y=530)
+Button(view_students, text = "Back to Main Menu", font = ("Arial",10), bg = "White", command=lambda : show_frame(main_menu)).place(x=290,y=530)
 
 
 # =================== Displaying GUI ===================
