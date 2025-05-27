@@ -1,0 +1,17 @@
+O _ O X
+O X O X
+O X X O
+O X _ _
+Turn: X
+Winner: O
+
+GAME OVER - O wins
+Parent states: 2
+Child states: 0
+
+Possible next moves:
+  None (terminal state)
+
+Parent states (moves that led here):
+  Parent 1: state_292.txt
+  Parent 2: state_461.txt

@@ -1,0 +1,4 @@
+Alice,password,alice@example.com,she/her,2002-04-12,12 Elm Street,1 Campus Road,Jane Smith,07234567890,Computer Science
+Bob,password123,bob@example.com,he/him,2001-08-22,34 Oak Avenue,2 Campus Road,Robert Johnson,07876543210,Software Engineering
+Charlie,charlie1,charlie1@example.com,they/them,2003-01-15,56 Pine Road,3 Campus Road,Linda Day,07122334455,Finance
+Charlie,charlie2,charlie2@example.com,,2000-11-05,78 Maple Drive,4 Campus Road,George Green,07233445566, Archaeology

@@ -1,0 +1,1863 @@
+GRAPH SUMMARY
+Total states: 1843
+Terminal states: 330 (17.9% of total)
+Non-terminal states: 1513 (82.1% of total)
+
+INITIAL STATE:
+----------------
+state_0.txt - O's turn
+
+IN-PROGRESS STATES:
+-------------------
+Count: 1512
+state_1.txt - X's turn
+state_10.txt - O's turn
+state_100.txt - X's turn
+state_1000.txt - X's turn
+state_1001.txt - X's turn
+state_1002.txt - X's turn
+state_1003.txt - X's turn
+state_1004.txt - X's turn
+state_1005.txt - X's turn
+state_1006.txt - X's turn
+state_1007.txt - X's turn
+state_1008.txt - X's turn
+state_101.txt - X's turn
+state_1010.txt - X's turn
+state_1011.txt - X's turn
+state_1012.txt - X's turn
+state_1014.txt - X's turn
+state_1015.txt - X's turn
+state_1016.txt - X's turn
+state_1017.txt - X's turn
+state_1018.txt - X's turn
+state_1019.txt - X's turn
+state_102.txt - X's turn
+state_1020.txt - X's turn
+state_1022.txt - X's turn
+state_1023.txt - X's turn
+state_1024.txt - X's turn
+state_1026.txt - X's turn
+state_1027.txt - X's turn
+state_1028.txt - X's turn
+state_1029.txt - X's turn
+state_103.txt - X's turn
+state_1030.txt - X's turn
+state_1031.txt - X's turn
+state_1032.txt - X's turn
+state_1033.txt - X's turn
+state_1034.txt - X's turn
+state_1035.txt - X's turn
+state_1036.txt - X's turn
+state_1037.txt - X's turn
+state_1038.txt - X's turn
+state_1039.txt - X's turn
+state_104.txt - X's turn
+state_1040.txt - X's turn
+state_1041.txt - X's turn
+state_1042.txt - X's turn
+state_1043.txt - X's turn
+state_1044.txt - X's turn
+state_1045.txt - X's turn
+state_1046.txt - X's turn
+state_1047.txt - X's turn
+state_1048.txt - X's turn
+state_105.txt - X's turn
+state_1050.txt - X's turn
+state_1051.txt - X's turn
+state_1052.txt - X's turn
+state_1055.txt - X's turn
+state_1056.txt - X's turn
+state_1057.txt - X's turn
+state_1059.txt - X's turn
+state_1060.txt - X's turn
+state_1061.txt - X's turn
+state_1062.txt - X's turn
+state_1063.txt - X's turn
+state_1064.txt - X's turn
+state_1065.txt - X's turn
+state_1066.txt - X's turn
+state_1067.txt - X's turn
+state_1068.txt - X's turn
+state_1069.txt - X's turn
+state_107.txt - X's turn
+state_1070.txt - X's turn
+state_1071.txt - X's turn
+state_1072.txt - X's turn
+state_1074.txt - X's turn
+state_1075.txt - X's turn
+state_1077.txt - X's turn
+state_1078.txt - X's turn
+state_1079.txt - X's turn
+state_108.txt - X's turn
+state_1081.txt - X's turn
+state_1082.txt - X's turn
+state_1083.txt - X's turn
+state_1084.txt - X's turn
+state_1085.txt - X's turn
+state_1086.txt - X's turn
+state_1087.txt - X's turn
+state_1088.txt - X's turn
+state_1089.txt - X's turn
+state_109.txt - X's turn
+state_1091.txt - X's turn
+state_1092.txt - X's turn
+state_1093.txt - X's turn
+state_1095.txt - X's turn
+state_1096.txt - X's turn
+state_1097.txt - X's turn
+state_1098.txt - X's turn
+state_1099.txt - X's turn
+state_11.txt - O's turn
+state_110.txt - X's turn
+state_1100.txt - X's turn
+state_1101.txt - X's turn
+state_1102.txt - X's turn
+state_1103.txt - X's turn
+state_1104.txt - X's turn
+state_1105.txt - X's turn
+state_1106.txt - X's turn
+state_1108.txt - X's turn
+state_1109.txt - X's turn
+state_111.txt - X's turn
+state_1111.txt - X's turn
+state_1113.txt - X's turn
+state_1119.txt - X's turn
+state_112.txt - X's turn
+state_1121.txt - X's turn
+state_1125.txt - X's turn
+state_1127.txt - X's turn
+state_113.txt - X's turn
+state_1131.txt - X's turn
+state_1134.txt - X's turn
+state_1135.txt - X's turn
+state_1136.txt - X's turn
+state_1137.txt - X's turn
+state_1138.txt - X's turn
+state_1139.txt - X's turn
+state_114.txt - X's turn
+state_1140.txt - X's turn
+state_1141.txt - X's turn
+state_1142.txt - X's turn
+state_1143.txt - O's turn
+state_1144.txt - O's turn
+state_1145.txt - O's turn
+state_1146.txt - O's turn
+state_1147.txt - O's turn
+state_1148.txt - O's turn
+state_1149.txt - O's turn
+state_115.txt - X's turn
+state_1150.txt - O's turn
+state_1151.txt - O's turn
+state_1152.txt - O's turn
+state_1153.txt - O's turn
+state_1154.txt - O's turn
+state_1155.txt - O's turn
+state_1156.txt - O's turn
+state_1157.txt - O's turn
+state_1158.txt - O's turn
+state_1159.txt - O's turn
+state_116.txt - X's turn
+state_1160.txt - O's turn
+state_1161.txt - O's turn
+state_1164.txt - O's turn
+state_1165.txt - O's turn
+state_1166.txt - O's turn
+state_1168.txt - O's turn
+state_1169.txt - O's turn
+state_117.txt - X's turn
+state_1170.txt - O's turn
+state_1171.txt - O's turn
+state_1174.txt - O's turn
+state_1175.txt - O's turn
+state_118.txt - X's turn
+state_1180.txt - O's turn
+state_1181.txt - O's turn
+state_1182.txt - O's turn
+state_1184.txt - O's turn
+state_1185.txt - O's turn
+state_1188.txt - O's turn
+state_119.txt - X's turn
+state_1191.txt - O's turn
+state_1193.txt - O's turn
+state_1194.txt - O's turn
+state_1197.txt - O's turn
+state_1198.txt - O's turn
+state_1199.txt - O's turn
+state_12.txt - O's turn
+state_120.txt - X's turn
+state_1200.txt - O's turn
+state_1201.txt - O's turn
+state_1202.txt - O's turn
+state_1203.txt - O's turn
+state_1204.txt - O's turn
+state_1205.txt - O's turn
+state_1206.txt - O's turn
+state_1207.txt - O's turn
+state_1208.txt - O's turn
+state_1209.txt - O's turn
+state_121.txt - X's turn
+state_1210.txt - O's turn
+state_1211.txt - O's turn
+state_1212.txt - O's turn
+state_1213.txt - O's turn
+state_1214.txt - O's turn
+state_1215.txt - O's turn
+state_1216.txt - O's turn
+state_1217.txt - O's turn
+state_1218.txt - O's turn
+state_122.txt - X's turn
+state_1220.txt - O's turn
+state_1223.txt - O's turn
+state_1224.txt - O's turn
+state_1225.txt - O's turn
+state_1226.txt - O's turn
+state_1227.txt - O's turn
+state_1228.txt - O's turn
+state_1229.txt - O's turn
+state_123.txt - X's turn
+state_1230.txt - O's turn
+state_1231.txt - O's turn
+state_1232.txt - O's turn
+state_1234.txt - O's turn
+state_1236.txt - O's turn
+state_1237.txt - O's turn
+state_1238.txt - O's turn
+state_1239.txt - O's turn
+state_124.txt - X's turn
+state_1240.txt - O's turn
+state_1241.txt - O's turn
+state_1242.txt - O's turn
+state_1243.txt - O's turn
+state_1244.txt - O's turn
+state_1245.txt - O's turn
+state_1246.txt - O's turn
+state_1247.txt - O's turn
+state_1248.txt - O's turn
+state_1249.txt - O's turn
+state_125.txt - X's turn
+state_1250.txt - O's turn
+state_1251.txt - O's turn
+state_1252.txt - O's turn
+state_1253.txt - O's turn
+state_1254.txt - O's turn
+state_1255.txt - O's turn
+state_1256.txt - O's turn
+state_1257.txt - O's turn
+state_1258.txt - O's turn
+state_1259.txt - O's turn
+state_126.txt - X's turn
+state_1260.txt - O's turn
+state_1263.txt - O's turn
+state_1264.txt - O's turn
+state_1265.txt - O's turn
+state_1266.txt - O's turn
+state_1267.txt - O's turn
+state_1268.txt - O's turn
+state_1269.txt - O's turn
+state_127.txt - X's turn
+state_1270.txt - O's turn
+state_1271.txt - O's turn
+state_1274.txt - O's turn
+state_1275.txt - O's turn
+state_1276.txt - O's turn
+state_1278.txt - O's turn
+state_1279.txt - O's turn
+state_128.txt - X's turn
+state_1283.txt - O's turn
+state_1284.txt - O's turn
+state_1285.txt - O's turn
+state_1286.txt - O's turn
+state_1287.txt - O's turn
+state_1288.txt - O's turn
+state_1289.txt - O's turn
+state_129.txt - X's turn
+state_1290.txt - O's turn
+state_1291.txt - O's turn
+state_1292.txt - O's turn
+state_1293.txt - O's turn
+state_1294.txt - O's turn
+state_1295.txt - O's turn
+state_1296.txt - O's turn
+state_1297.txt - O's turn
+state_1298.txt - O's turn
+state_1299.txt - O's turn
+state_13.txt - O's turn
+state_130.txt - X's turn
+state_1300.txt - O's turn
+state_1301.txt - O's turn
+state_1302.txt - O's turn
+state_1303.txt - O's turn
+state_1305.txt - O's turn
+state_1307.txt - O's turn
+state_1309.txt - O's turn
+state_131.txt - X's turn
+state_1310.txt - O's turn
+state_1311.txt - O's turn
+state_1312.txt - O's turn
+state_1313.txt - O's turn
+state_1314.txt - O's turn
+state_1315.txt - O's turn
+state_1316.txt - O's turn
+state_1317.txt - O's turn
+state_1318.txt - O's turn
+state_1319.txt - O's turn
+state_132.txt - X's turn
+state_1320.txt - O's turn
+state_1321.txt - O's turn
+state_1322.txt - O's turn
+state_1323.txt - O's turn
+state_1324.txt - O's turn
+state_1325.txt - O's turn
+state_1326.txt - O's turn
+state_1327.txt - O's turn
+state_1328.txt - O's turn
+state_1329.txt - O's turn
+state_133.txt - X's turn
+state_1330.txt - O's turn
+state_1332.txt - O's turn
+state_1334.txt - O's turn
+state_1335.txt - O's turn
+state_1336.txt - O's turn
+state_1337.txt - O's turn
+state_1338.txt - O's turn
+state_1339.txt - O's turn
+state_134.txt - X's turn
+state_1340.txt - O's turn
+state_1341.txt - O's turn
+state_1342.txt - O's turn
+state_1343.txt - O's turn
+state_1344.txt - O's turn
+state_1345.txt - O's turn
+state_1346.txt - O's turn
+state_1347.txt - O's turn
+state_1348.txt - O's turn
+state_1349.txt - O's turn
+state_135.txt - X's turn
+state_1350.txt - O's turn
+state_1351.txt - O's turn
+state_1352.txt - O's turn
+state_1353.txt - O's turn
+state_1354.txt - O's turn
+state_1355.txt - O's turn
+state_1356.txt - O's turn
+state_1357.txt - O's turn
+state_1358.txt - O's turn
+state_1359.txt - O's turn
+state_136.txt - X's turn
+state_1360.txt - O's turn
+state_1361.txt - O's turn
+state_1362.txt - O's turn
+state_1363.txt - O's turn
+state_1364.txt - O's turn
+state_1365.txt - O's turn
+state_1366.txt - O's turn
+state_1367.txt - O's turn
+state_1368.txt - O's turn
+state_1369.txt - O's turn
+state_137.txt - X's turn
+state_1370.txt - O's turn
+state_1371.txt - O's turn
+state_1372.txt - O's turn
+state_1373.txt - O's turn
+state_1376.txt - O's turn
+state_1377.txt - O's turn
+state_1378.txt - O's turn
+state_1379.txt - O's turn
+state_138.txt - X's turn
+state_1380.txt - O's turn
+state_1381.txt - O's turn
+state_1382.txt - O's turn
+state_1383.txt - O's turn
+state_1384.txt - O's turn
+state_1385.txt - O's turn
+state_1386.txt - O's turn
+state_1387.txt - O's turn
+state_1388.txt - O's turn
+state_1389.txt - O's turn
+state_139.txt - X's turn
+state_1390.txt - O's turn
+state_1391.txt - O's turn
+state_1392.txt - O's turn
+state_1393.txt - O's turn
+state_1394.txt - O's turn
+state_1395.txt - O's turn
+state_1396.txt - O's turn
+state_1397.txt - O's turn
+state_1398.txt - O's turn
+state_1399.txt - O's turn
+state_14.txt - O's turn
+state_140.txt - X's turn
+state_1401.txt - O's turn
+state_1403.txt - O's turn
+state_1404.txt - O's turn
+state_1405.txt - O's turn
+state_1406.txt - O's turn
+state_1407.txt - O's turn
+state_1408.txt - O's turn
+state_1409.txt - O's turn
+state_141.txt - X's turn
+state_1410.txt - O's turn
+state_1412.txt - O's turn
+state_1414.txt - O's turn
+state_1415.txt - O's turn
+state_1416.txt - O's turn
+state_1418.txt - O's turn
+state_1419.txt - O's turn
+state_142.txt - X's turn
+state_1423.txt - O's turn
+state_1424.txt - O's turn
+state_1425.txt - O's turn
+state_1426.txt - O's turn
+state_1427.txt - O's turn
+state_1428.txt - O's turn
+state_1429.txt - O's turn
+state_143.txt - X's turn
+state_1430.txt - O's turn
+state_1431.txt - O's turn
+state_1432.txt - O's turn
+state_1433.txt - O's turn
+state_1434.txt - O's turn
+state_1435.txt - O's turn
+state_1436.txt - O's turn
+state_1437.txt - O's turn
+state_1438.txt - O's turn
+state_1439.txt - O's turn
+state_144.txt - X's turn
+state_1440.txt - O's turn
+state_1442.txt - O's turn
+state_1444.txt - O's turn
+state_1445.txt - O's turn
+state_1446.txt - O's turn
+state_1447.txt - O's turn
+state_1449.txt - O's turn
+state_145.txt - X's turn
+state_1451.txt - O's turn
+state_1452.txt - O's turn
+state_1453.txt - O's turn
+state_1454.txt - O's turn
+state_1455.txt - O's turn
+state_1456.txt - O's turn
+state_1457.txt - O's turn
+state_1458.txt - O's turn
+state_1459.txt - O's turn
+state_146.txt - X's turn
+state_1460.txt - O's turn
+state_1462.txt - O's turn
+state_1464.txt - O's turn
+state_1465.txt - O's turn
+state_1466.txt - O's turn
+state_1467.txt - O's turn
+state_1468.txt - O's turn
+state_1469.txt - O's turn
+state_147.txt - X's turn
+state_1470.txt - O's turn
+state_1471.txt - O's turn
+state_1472.txt - O's turn
+state_1474.txt - O's turn
+state_1475.txt - O's turn
+state_1476.txt - O's turn
+state_1477.txt - O's turn
+state_1478.txt - O's turn
+state_1479.txt - O's turn
+state_148.txt - X's turn
+state_1480.txt - O's turn
+state_1481.txt - O's turn
+state_1482.txt - O's turn
+state_1484.txt - O's turn
+state_1486.txt - O's turn
+state_1487.txt - O's turn
+state_1488.txt - O's turn
+state_149.txt - X's turn
+state_1490.txt - O's turn
+state_1492.txt - O's turn
+state_1495.txt - O's turn
+state_1497.txt - O's turn
+state_15.txt - O's turn
+state_150.txt - X's turn
+state_1502.txt - O's turn
+state_1504.txt - O's turn
+state_1505.txt - O's turn
+state_1506.txt - O's turn
+state_1507.txt - O's turn
+state_1508.txt - O's turn
+state_151.txt - X's turn
+state_1510.txt - O's turn
+state_1511.txt - O's turn
+state_1513.txt - O's turn
+state_1514.txt - O's turn
+state_1515.txt - O's turn
+state_1516.txt - O's turn
+state_1517.txt - O's turn
+state_1518.txt - O's turn
+state_1519.txt - O's turn
+state_152.txt - X's turn
+state_1520.txt - O's turn
+state_1521.txt - O's turn
+state_1522.txt - O's turn
+state_1523.txt - O's turn
+state_1524.txt - O's turn
+state_1525.txt - O's turn
+state_1526.txt - O's turn
+state_1527.txt - O's turn
+state_1528.txt - O's turn
+state_1529.txt - O's turn
+state_153.txt - X's turn
+state_1530.txt - O's turn
+state_1531.txt - O's turn
+state_1532.txt - O's turn
+state_1533.txt - O's turn
+state_1534.txt - O's turn
+state_1535.txt - O's turn
+state_1536.txt - O's turn
+state_1537.txt - O's turn
+state_1538.txt - O's turn
+state_1539.txt - O's turn
+state_154.txt - X's turn
+state_1540.txt - O's turn
+state_1541.txt - O's turn
+state_1542.txt - O's turn
+state_1543.txt - O's turn
+state_1544.txt - O's turn
+state_1545.txt - O's turn
+state_1546.txt - O's turn
+state_1547.txt - O's turn
+state_1548.txt - O's turn
+state_1549.txt - O's turn
+state_155.txt - X's turn
+state_1550.txt - O's turn
+state_1551.txt - O's turn
+state_1552.txt - O's turn
+state_1553.txt - O's turn
+state_1554.txt - O's turn
+state_1555.txt - O's turn
+state_1556.txt - O's turn
+state_1557.txt - O's turn
+state_1558.txt - O's turn
+state_1559.txt - O's turn
+state_156.txt - X's turn
+state_1560.txt - O's turn
+state_1561.txt - O's turn
+state_1562.txt - O's turn
+state_1563.txt - O's turn
+state_1565.txt - O's turn
+state_1566.txt - O's turn
+state_1567.txt - O's turn
+state_1568.txt - O's turn
+state_1569.txt - O's turn
+state_157.txt - X's turn
+state_1572.txt - O's turn
+state_1573.txt - O's turn
+state_1575.txt - O's turn
+state_1576.txt - O's turn
+state_1577.txt - O's turn
+state_1578.txt - O's turn
+state_158.txt - X's turn
+state_1580.txt - O's turn
+state_1582.txt - O's turn
+state_1586.txt - X's turn
+state_1588.txt - X's turn
+state_1589.txt - X's turn
+state_159.txt - X's turn
+state_1590.txt - X's turn
+state_1591.txt - X's turn
+state_1592.txt - X's turn
+state_1593.txt - X's turn
+state_1594.txt - X's turn
+state_1595.txt - X's turn
+state_1597.txt - X's turn
+state_16.txt - O's turn
+state_160.txt - X's turn
+state_1600.txt - X's turn
+state_1608.txt - X's turn
+state_161.txt - X's turn
+state_1610.txt - X's turn
+state_1615.txt - X's turn
+state_162.txt - X's turn
+state_1620.txt - X's turn
+state_1621.txt - X's turn
+state_1622.txt - X's turn
+state_1624.txt - X's turn
+state_1625.txt - X's turn
+state_1626.txt - X's turn
+state_1627.txt - X's turn
+state_1628.txt - X's turn
+state_1629.txt - X's turn
+state_163.txt - X's turn
+state_1630.txt - X's turn
+state_1631.txt - X's turn
+state_1632.txt - X's turn
+state_1633.txt - X's turn
+state_1634.txt - X's turn
+state_1635.txt - X's turn
+state_1636.txt - X's turn
+state_1637.txt - X's turn
+state_1638.txt - X's turn
+state_1639.txt - X's turn
+state_164.txt - X's turn
+state_1640.txt - X's turn
+state_1641.txt - X's turn
+state_1642.txt - X's turn
+state_1643.txt - X's turn
+state_1644.txt - X's turn
+state_1645.txt - X's turn
+state_1646.txt - X's turn
+state_1647.txt - X's turn
+state_1648.txt - X's turn
+state_165.txt - X's turn
+state_1650.txt - X's turn
+state_1651.txt - X's turn
+state_1654.txt - X's turn
+state_1655.txt - X's turn
+state_1657.txt - X's turn
+state_1659.txt - X's turn
+state_166.txt - X's turn
+state_1665.txt - X's turn
+state_1668.txt - X's turn
+state_167.txt - X's turn
+state_1676.txt - X's turn
+state_1679.txt - X's turn
+state_168.txt - X's turn
+state_1683.txt - X's turn
+state_1685.txt - X's turn
+state_1686.txt - X's turn
+state_1687.txt - X's turn
+state_1689.txt - X's turn
+state_169.txt - X's turn
+state_1690.txt - X's turn
+state_1691.txt - X's turn
+state_1692.txt - X's turn
+state_1693.txt - X's turn
+state_1694.txt - X's turn
+state_1695.txt - X's turn
+state_1696.txt - X's turn
+state_1697.txt - X's turn
+state_1698.txt - X's turn
+state_1699.txt - X's turn
+state_17.txt - O's turn
+state_170.txt - X's turn
+state_1700.txt - X's turn
+state_1701.txt - X's turn
+state_1702.txt - X's turn
+state_1703.txt - X's turn
+state_1704.txt - X's turn
+state_1705.txt - X's turn
+state_1706.txt - X's turn
+state_1707.txt - X's turn
+state_1708.txt - X's turn
+state_1709.txt - X's turn
+state_171.txt - X's turn
+state_1711.txt - X's turn
+state_1712.txt - X's turn
+state_1713.txt - X's turn
+state_1715.txt - X's turn
+state_1716.txt - X's turn
+state_1717.txt - X's turn
+state_1718.txt - X's turn
+state_1719.txt - X's turn
+state_172.txt - X's turn
+state_1720.txt - X's turn
+state_1721.txt - X's turn
+state_1722.txt - X's turn
+state_1723.txt - X's turn
+state_1724.txt - X's turn
+state_1725.txt - X's turn
+state_1726.txt - X's turn
+state_1727.txt - X's turn
+state_1729.txt - X's turn
+state_173.txt - X's turn
+state_1733.txt - X's turn
+state_1736.txt - X's turn
+state_1737.txt - X's turn
+state_1738.txt - X's turn
+state_1739.txt - X's turn
+state_174.txt - X's turn
+state_1740.txt - X's turn
+state_1741.txt - X's turn
+state_1742.txt - X's turn
+state_1743.txt - X's turn
+state_1744.txt - X's turn
+state_1747.txt - X's turn
+state_1748.txt - X's turn
+state_1749.txt - X's turn
+state_175.txt - X's turn
+state_1750.txt - X's turn
+state_1751.txt - X's turn
+state_1752.txt - X's turn
+state_1753.txt - X's turn
+state_1754.txt - X's turn
+state_1756.txt - X's turn
+state_1757.txt - X's turn
+state_1758.txt - X's turn
+state_176.txt - X's turn
+state_1760.txt - X's turn
+state_1761.txt - X's turn
+state_1762.txt - X's turn
+state_1763.txt - X's turn
+state_1764.txt - X's turn
+state_1765.txt - X's turn
+state_1766.txt - X's turn
+state_1767.txt - X's turn
+state_1768.txt - X's turn
+state_1769.txt - X's turn
+state_177.txt - X's turn
+state_1770.txt - X's turn
+state_1771.txt - X's turn
+state_1772.txt - X's turn
+state_1775.txt - X's turn
+state_1778.txt - X's turn
+state_1779.txt - X's turn
+state_178.txt - X's turn
+state_1780.txt - X's turn
+state_1781.txt - X's turn
+state_1782.txt - X's turn
+state_1783.txt - X's turn
+state_1784.txt - X's turn
+state_1785.txt - X's turn
+state_1787.txt - X's turn
+state_179.txt - X's turn
+state_1791.txt - X's turn
+state_1794.txt - X's turn
+state_1795.txt - X's turn
+state_1796.txt - X's turn
+state_1797.txt - X's turn
+state_18.txt - O's turn
+state_180.txt - X's turn
+state_1800.txt - X's turn
+state_181.txt - X's turn
+state_182.txt - X's turn
+state_183.txt - X's turn
+state_184.txt - X's turn
+state_185.txt - X's turn
+state_186.txt - X's turn
+state_187.txt - X's turn
+state_188.txt - X's turn
+state_189.txt - X's turn
+state_19.txt - O's turn
+state_190.txt - X's turn
+state_191.txt - X's turn
+state_192.txt - X's turn
+state_193.txt - X's turn
+state_194.txt - X's turn
+state_195.txt - X's turn
+state_196.txt - X's turn
+state_197.txt - X's turn
+state_199.txt - X's turn
+state_2.txt - X's turn
+state_20.txt - O's turn
+state_200.txt - X's turn
+state_202.txt - X's turn
+state_203.txt - X's turn
+state_205.txt - X's turn
+state_206.txt - X's turn
+state_207.txt - X's turn
+state_21.txt - O's turn
+state_210.txt - X's turn
+state_211.txt - X's turn
+state_212.txt - X's turn
+state_213.txt - X's turn
+state_215.txt - X's turn
+state_216.txt - X's turn
+state_217.txt - X's turn
+state_218.txt - X's turn
+state_219.txt - X's turn
+state_22.txt - O's turn
+state_220.txt - X's turn
+state_221.txt - X's turn
+state_222.txt - X's turn
+state_223.txt - X's turn
+state_224.txt - X's turn
+state_225.txt - X's turn
+state_226.txt - X's turn
+state_227.txt - X's turn
+state_228.txt - X's turn
+state_229.txt - X's turn
+state_23.txt - O's turn
+state_230.txt - X's turn
+state_231.txt - X's turn
+state_232.txt - X's turn
+state_233.txt - O's turn
+state_234.txt - O's turn
+state_235.txt - O's turn
+state_236.txt - O's turn
+state_237.txt - O's turn
+state_238.txt - O's turn
+state_24.txt - O's turn
+state_240.txt - O's turn
+state_241.txt - O's turn
+state_242.txt - O's turn
+state_243.txt - O's turn
+state_244.txt - O's turn
+state_245.txt - O's turn
+state_247.txt - O's turn
+state_248.txt - O's turn
+state_249.txt - O's turn
+state_25.txt - O's turn
+state_250.txt - O's turn
+state_252.txt - O's turn
+state_253.txt - O's turn
+state_254.txt - O's turn
+state_255.txt - O's turn
+state_257.txt - O's turn
+state_258.txt - O's turn
+state_259.txt - O's turn
+state_26.txt - O's turn
+state_260.txt - O's turn
+state_261.txt - O's turn
+state_262.txt - O's turn
+state_263.txt - O's turn
+state_264.txt - O's turn
+state_265.txt - O's turn
+state_266.txt - O's turn
+state_267.txt - O's turn
+state_268.txt - O's turn
+state_269.txt - O's turn
+state_27.txt - O's turn
+state_270.txt - O's turn
+state_271.txt - O's turn
+state_272.txt - O's turn
+state_273.txt - O's turn
+state_274.txt - O's turn
+state_275.txt - O's turn
+state_276.txt - O's turn
+state_277.txt - O's turn
+state_278.txt - O's turn
+state_279.txt - O's turn
+state_28.txt - O's turn
+state_280.txt - O's turn
+state_281.txt - O's turn
+state_282.txt - O's turn
+state_283.txt - O's turn
+state_284.txt - O's turn
+state_285.txt - O's turn
+state_286.txt - O's turn
+state_287.txt - O's turn
+state_288.txt - O's turn
+state_289.txt - O's turn
+state_29.txt - O's turn
+state_290.txt - O's turn
+state_291.txt - O's turn
+state_292.txt - O's turn
+state_293.txt - O's turn
+state_294.txt - O's turn
+state_295.txt - O's turn
+state_296.txt - O's turn
+state_297.txt - O's turn
+state_298.txt - O's turn
+state_299.txt - O's turn
+state_3.txt - X's turn
+state_30.txt - O's turn
+state_300.txt - O's turn
+state_301.txt - O's turn
+state_302.txt - O's turn
+state_303.txt - O's turn
+state_304.txt - O's turn
+state_305.txt - O's turn
+state_306.txt - O's turn
+state_307.txt - O's turn
+state_308.txt - O's turn
+state_309.txt - O's turn
+state_31.txt - O's turn
+state_310.txt - O's turn
+state_312.txt - O's turn
+state_314.txt - O's turn
+state_315.txt - O's turn
+state_318.txt - O's turn
+state_319.txt - O's turn
+state_32.txt - O's turn
+state_320.txt - O's turn
+state_321.txt - O's turn
+state_322.txt - O's turn
+state_323.txt - O's turn
+state_324.txt - O's turn
+state_325.txt - O's turn
+state_326.txt - O's turn
+state_327.txt - O's turn
+state_328.txt - O's turn
+state_329.txt - O's turn
+state_33.txt - O's turn
+state_330.txt - O's turn
+state_331.txt - O's turn
+state_332.txt - O's turn
+state_333.txt - O's turn
+state_334.txt - O's turn
+state_335.txt - O's turn
+state_336.txt - O's turn
+state_337.txt - O's turn
+state_338.txt - O's turn
+state_339.txt - O's turn
+state_34.txt - O's turn
+state_340.txt - O's turn
+state_341.txt - O's turn
+state_342.txt - O's turn
+state_343.txt - O's turn
+state_344.txt - O's turn
+state_345.txt - O's turn
+state_346.txt - O's turn
+state_347.txt - O's turn
+state_348.txt - O's turn
+state_349.txt - O's turn
+state_35.txt - O's turn
+state_350.txt - O's turn
+state_351.txt - O's turn
+state_352.txt - O's turn
+state_353.txt - O's turn
+state_354.txt - O's turn
+state_355.txt - O's turn
+state_356.txt - O's turn
+state_357.txt - O's turn
+state_358.txt - O's turn
+state_359.txt - O's turn
+state_36.txt - O's turn
+state_360.txt - O's turn
+state_361.txt - O's turn
+state_362.txt - O's turn
+state_363.txt - O's turn
+state_364.txt - O's turn
+state_365.txt - O's turn
+state_366.txt - O's turn
+state_367.txt - O's turn
+state_368.txt - O's turn
+state_369.txt - O's turn
+state_37.txt - O's turn
+state_370.txt - O's turn
+state_371.txt - O's turn
+state_372.txt - O's turn
+state_373.txt - O's turn
+state_374.txt - O's turn
+state_375.txt - O's turn
+state_376.txt - O's turn
+state_377.txt - O's turn
+state_378.txt - O's turn
+state_379.txt - O's turn
+state_38.txt - O's turn
+state_380.txt - O's turn
+state_381.txt - O's turn
+state_382.txt - O's turn
+state_383.txt - O's turn
+state_384.txt - O's turn
+state_385.txt - O's turn
+state_386.txt - O's turn
+state_387.txt - O's turn
+state_388.txt - O's turn
+state_389.txt - O's turn
+state_39.txt - O's turn
+state_390.txt - O's turn
+state_391.txt - O's turn
+state_392.txt - O's turn
+state_393.txt - O's turn
+state_394.txt - O's turn
+state_395.txt - O's turn
+state_396.txt - O's turn
+state_397.txt - O's turn
+state_398.txt - O's turn
+state_399.txt - O's turn
+state_4.txt - X's turn
+state_40.txt - O's turn
+state_400.txt - O's turn
+state_402.txt - O's turn
+state_404.txt - O's turn
+state_406.txt - O's turn
+state_408.txt - O's turn
+state_409.txt - O's turn
+state_41.txt - O's turn
+state_410.txt - O's turn
+state_411.txt - O's turn
+state_412.txt - O's turn
+state_413.txt - O's turn
+state_414.txt - O's turn
+state_415.txt - O's turn
+state_416.txt - O's turn
+state_417.txt - O's turn
+state_418.txt - O's turn
+state_419.txt - O's turn
+state_42.txt - O's turn
+state_420.txt - O's turn
+state_421.txt - O's turn
+state_422.txt - O's turn
+state_423.txt - O's turn
+state_424.txt - O's turn
+state_425.txt - O's turn
+state_426.txt - O's turn
+state_427.txt - O's turn
+state_428.txt - O's turn
+state_429.txt - O's turn
+state_43.txt - O's turn
+state_430.txt - O's turn
+state_431.txt - O's turn
+state_432.txt - O's turn
+state_433.txt - O's turn
+state_434.txt - O's turn
+state_435.txt - O's turn
+state_436.txt - O's turn
+state_437.txt - O's turn
+state_438.txt - O's turn
+state_439.txt - O's turn
+state_44.txt - O's turn
+state_440.txt - O's turn
+state_441.txt - O's turn
+state_442.txt - O's turn
+state_443.txt - O's turn
+state_445.txt - O's turn
+state_447.txt - O's turn
+state_448.txt - O's turn
+state_449.txt - O's turn
+state_45.txt - O's turn
+state_450.txt - O's turn
+state_452.txt - O's turn
+state_453.txt - O's turn
+state_454.txt - O's turn
+state_455.txt - O's turn
+state_457.txt - O's turn
+state_458.txt - O's turn
+state_459.txt - O's turn
+state_46.txt - O's turn
+state_460.txt - O's turn
+state_461.txt - O's turn
+state_462.txt - O's turn
+state_463.txt - O's turn
+state_464.txt - O's turn
+state_465.txt - O's turn
+state_466.txt - O's turn
+state_467.txt - O's turn
+state_468.txt - O's turn
+state_469.txt - O's turn
+state_47.txt - O's turn
+state_470.txt - O's turn
+state_471.txt - O's turn
+state_472.txt - O's turn
+state_473.txt - O's turn
+state_474.txt - O's turn
+state_475.txt - O's turn
+state_476.txt - O's turn
+state_477.txt - O's turn
+state_478.txt - O's turn
+state_479.txt - O's turn
+state_48.txt - O's turn
+state_481.txt - O's turn
+state_484.txt - O's turn
+state_485.txt - O's turn
+state_486.txt - O's turn
+state_487.txt - O's turn
+state_488.txt - O's turn
+state_489.txt - O's turn
+state_49.txt - O's turn
+state_490.txt - O's turn
+state_491.txt - O's turn
+state_492.txt - O's turn
+state_493.txt - O's turn
+state_494.txt - O's turn
+state_495.txt - O's turn
+state_496.txt - O's turn
+state_497.txt - O's turn
+state_498.txt - O's turn
+state_499.txt - O's turn
+state_5.txt - X's turn
+state_50.txt - O's turn
+state_500.txt - O's turn
+state_501.txt - O's turn
+state_502.txt - O's turn
+state_503.txt - O's turn
+state_504.txt - O's turn
+state_505.txt - O's turn
+state_506.txt - O's turn
+state_507.txt - O's turn
+state_508.txt - O's turn
+state_509.txt - O's turn
+state_51.txt - O's turn
+state_510.txt - O's turn
+state_511.txt - O's turn
+state_512.txt - O's turn
+state_513.txt - O's turn
+state_514.txt - O's turn
+state_515.txt - O's turn
+state_516.txt - O's turn
+state_517.txt - O's turn
+state_518.txt - O's turn
+state_519.txt - O's turn
+state_52.txt - O's turn
+state_520.txt - O's turn
+state_521.txt - O's turn
+state_522.txt - O's turn
+state_523.txt - O's turn
+state_524.txt - O's turn
+state_525.txt - O's turn
+state_526.txt - O's turn
+state_527.txt - O's turn
+state_528.txt - O's turn
+state_529.txt - O's turn
+state_53.txt - O's turn
+state_530.txt - O's turn
+state_531.txt - O's turn
+state_532.txt - O's turn
+state_533.txt - O's turn
+state_534.txt - O's turn
+state_535.txt - O's turn
+state_536.txt - O's turn
+state_537.txt - O's turn
+state_538.txt - O's turn
+state_539.txt - O's turn
+state_54.txt - O's turn
+state_540.txt - O's turn
+state_541.txt - O's turn
+state_542.txt - O's turn
+state_545.txt - O's turn
+state_546.txt - O's turn
+state_547.txt - O's turn
+state_548.txt - O's turn
+state_549.txt - O's turn
+state_55.txt - O's turn
+state_550.txt - O's turn
+state_551.txt - O's turn
+state_552.txt - O's turn
+state_553.txt - O's turn
+state_554.txt - O's turn
+state_555.txt - O's turn
+state_556.txt - O's turn
+state_557.txt - O's turn
+state_558.txt - O's turn
+state_559.txt - O's turn
+state_56.txt - O's turn
+state_560.txt - O's turn
+state_562.txt - O's turn
+state_563.txt - O's turn
+state_564.txt - O's turn
+state_566.txt - O's turn
+state_567.txt - O's turn
+state_568.txt - O's turn
+state_569.txt - O's turn
+state_57.txt - O's turn
+state_570.txt - O's turn
+state_571.txt - O's turn
+state_572.txt - O's turn
+state_573.txt - O's turn
+state_574.txt - O's turn
+state_575.txt - O's turn
+state_576.txt - O's turn
+state_577.txt - O's turn
+state_578.txt - O's turn
+state_579.txt - O's turn
+state_58.txt - O's turn
+state_580.txt - O's turn
+state_581.txt - O's turn
+state_582.txt - O's turn
+state_583.txt - O's turn
+state_584.txt - O's turn
+state_585.txt - O's turn
+state_586.txt - O's turn
+state_587.txt - O's turn
+state_588.txt - O's turn
+state_589.txt - O's turn
+state_59.txt - O's turn
+state_590.txt - O's turn
+state_592.txt - O's turn
+state_594.txt - O's turn
+state_595.txt - O's turn
+state_596.txt - O's turn
+state_597.txt - O's turn
+state_598.txt - O's turn
+state_599.txt - O's turn
+state_6.txt - X's turn
+state_60.txt - O's turn
+state_600.txt - O's turn
+state_601.txt - O's turn
+state_602.txt - O's turn
+state_603.txt - O's turn
+state_604.txt - O's turn
+state_605.txt - O's turn
+state_606.txt - O's turn
+state_607.txt - O's turn
+state_608.txt - O's turn
+state_609.txt - O's turn
+state_61.txt - O's turn
+state_610.txt - O's turn
+state_611.txt - O's turn
+state_612.txt - O's turn
+state_614.txt - O's turn
+state_615.txt - O's turn
+state_616.txt - O's turn
+state_617.txt - O's turn
+state_618.txt - O's turn
+state_619.txt - O's turn
+state_62.txt - O's turn
+state_620.txt - O's turn
+state_621.txt - O's turn
+state_622.txt - O's turn
+state_623.txt - X's turn
+state_624.txt - X's turn
+state_625.txt - X's turn
+state_626.txt - X's turn
+state_627.txt - X's turn
+state_628.txt - X's turn
+state_629.txt - X's turn
+state_63.txt - O's turn
+state_631.txt - X's turn
+state_632.txt - X's turn
+state_633.txt - X's turn
+state_636.txt - X's turn
+state_637.txt - X's turn
+state_638.txt - X's turn
+state_639.txt - X's turn
+state_64.txt - O's turn
+state_640.txt - X's turn
+state_642.txt - X's turn
+state_644.txt - X's turn
+state_645.txt - X's turn
+state_647.txt - X's turn
+state_65.txt - X's turn
+state_650.txt - X's turn
+state_651.txt - X's turn
+state_652.txt - X's turn
+state_655.txt - X's turn
+state_656.txt - X's turn
+state_657.txt - X's turn
+state_659.txt - X's turn
+state_66.txt - X's turn
+state_660.txt - X's turn
+state_662.txt - X's turn
+state_664.txt - X's turn
+state_665.txt - X's turn
+state_667.txt - X's turn
+state_67.txt - X's turn
+state_673.txt - X's turn
+state_674.txt - X's turn
+state_675.txt - X's turn
+state_676.txt - X's turn
+state_677.txt - X's turn
+state_678.txt - X's turn
+state_679.txt - X's turn
+state_68.txt - X's turn
+state_680.txt - X's turn
+state_681.txt - X's turn
+state_682.txt - X's turn
+state_683.txt - X's turn
+state_684.txt - X's turn
+state_685.txt - X's turn
+state_686.txt - X's turn
+state_687.txt - X's turn
+state_688.txt - X's turn
+state_689.txt - X's turn
+state_69.txt - X's turn
+state_690.txt - X's turn
+state_691.txt - X's turn
+state_692.txt - X's turn
+state_693.txt - X's turn
+state_694.txt - X's turn
+state_695.txt - X's turn
+state_696.txt - X's turn
+state_697.txt - X's turn
+state_698.txt - X's turn
+state_699.txt - X's turn
+state_7.txt - X's turn
+state_700.txt - X's turn
+state_701.txt - X's turn
+state_702.txt - X's turn
+state_703.txt - X's turn
+state_704.txt - X's turn
+state_705.txt - X's turn
+state_707.txt - X's turn
+state_709.txt - X's turn
+state_71.txt - X's turn
+state_710.txt - X's turn
+state_711.txt - X's turn
+state_713.txt - X's turn
+state_714.txt - X's turn
+state_715.txt - X's turn
+state_716.txt - X's turn
+state_717.txt - X's turn
+state_718.txt - X's turn
+state_719.txt - X's turn
+state_72.txt - X's turn
+state_720.txt - X's turn
+state_721.txt - X's turn
+state_722.txt - X's turn
+state_723.txt - X's turn
+state_725.txt - X's turn
+state_726.txt - X's turn
+state_727.txt - X's turn
+state_729.txt - X's turn
+state_73.txt - X's turn
+state_730.txt - X's turn
+state_731.txt - X's turn
+state_733.txt - X's turn
+state_734.txt - X's turn
+state_735.txt - X's turn
+state_736.txt - X's turn
+state_738.txt - X's turn
+state_74.txt - X's turn
+state_741.txt - X's turn
+state_742.txt - X's turn
+state_743.txt - X's turn
+state_746.txt - X's turn
+state_748.txt - X's turn
+state_749.txt - X's turn
+state_75.txt - X's turn
+state_751.txt - X's turn
+state_753.txt - X's turn
+state_756.txt - X's turn
+state_758.txt - X's turn
+state_76.txt - X's turn
+state_763.txt - X's turn
+state_764.txt - X's turn
+state_766.txt - X's turn
+state_768.txt - X's turn
+state_769.txt - X's turn
+state_77.txt - X's turn
+state_770.txt - X's turn
+state_771.txt - X's turn
+state_772.txt - X's turn
+state_774.txt - X's turn
+state_776.txt - X's turn
+state_777.txt - X's turn
+state_779.txt - X's turn
+state_78.txt - X's turn
+state_780.txt - X's turn
+state_781.txt - X's turn
+state_783.txt - X's turn
+state_784.txt - X's turn
+state_786.txt - X's turn
+state_788.txt - X's turn
+state_79.txt - X's turn
+state_793.txt - X's turn
+state_794.txt - X's turn
+state_796.txt - X's turn
+state_798.txt - X's turn
+state_799.txt - X's turn
+state_8.txt - X's turn
+state_80.txt - X's turn
+state_800.txt - X's turn
+state_804.txt - X's turn
+state_805.txt - X's turn
+state_806.txt - X's turn
+state_807.txt - X's turn
+state_809.txt - X's turn
+state_81.txt - X's turn
+state_811.txt - X's turn
+state_813.txt - X's turn
+state_814.txt - X's turn
+state_815.txt - X's turn
+state_816.txt - X's turn
+state_817.txt - X's turn
+state_818.txt - X's turn
+state_819.txt - X's turn
+state_820.txt - X's turn
+state_821.txt - X's turn
+state_822.txt - X's turn
+state_823.txt - X's turn
+state_824.txt - X's turn
+state_825.txt - X's turn
+state_826.txt - X's turn
+state_827.txt - X's turn
+state_828.txt - X's turn
+state_829.txt - X's turn
+state_83.txt - X's turn
+state_830.txt - X's turn
+state_831.txt - X's turn
+state_832.txt - X's turn
+state_833.txt - X's turn
+state_834.txt - X's turn
+state_835.txt - X's turn
+state_836.txt - X's turn
+state_837.txt - X's turn
+state_838.txt - X's turn
+state_839.txt - X's turn
+state_84.txt - X's turn
+state_840.txt - X's turn
+state_841.txt - X's turn
+state_842.txt - X's turn
+state_843.txt - X's turn
+state_844.txt - X's turn
+state_845.txt - X's turn
+state_846.txt - X's turn
+state_847.txt - X's turn
+state_848.txt - X's turn
+state_849.txt - X's turn
+state_85.txt - X's turn
+state_850.txt - X's turn
+state_853.txt - X's turn
+state_854.txt - X's turn
+state_856.txt - X's turn
+state_857.txt - X's turn
+state_858.txt - X's turn
+state_86.txt - X's turn
+state_860.txt - X's turn
+state_861.txt - X's turn
+state_862.txt - X's turn
+state_863.txt - X's turn
+state_864.txt - X's turn
+state_865.txt - X's turn
+state_866.txt - X's turn
+state_867.txt - X's turn
+state_868.txt - X's turn
+state_869.txt - X's turn
+state_870.txt - X's turn
+state_871.txt - X's turn
+state_872.txt - X's turn
+state_873.txt - X's turn
+state_874.txt - X's turn
+state_875.txt - X's turn
+state_876.txt - X's turn
+state_877.txt - X's turn
+state_878.txt - X's turn
+state_879.txt - X's turn
+state_88.txt - X's turn
+state_880.txt - X's turn
+state_881.txt - X's turn
+state_882.txt - X's turn
+state_883.txt - X's turn
+state_884.txt - X's turn
+state_885.txt - X's turn
+state_887.txt - X's turn
+state_888.txt - X's turn
+state_89.txt - X's turn
+state_890.txt - X's turn
+state_891.txt - X's turn
+state_892.txt - X's turn
+state_894.txt - X's turn
+state_895.txt - X's turn
+state_896.txt - X's turn
+state_897.txt - X's turn
+state_898.txt - X's turn
+state_899.txt - X's turn
+state_9.txt - O's turn
+state_90.txt - X's turn
+state_900.txt - X's turn
+state_901.txt - X's turn
+state_902.txt - X's turn
+state_903.txt - X's turn
+state_904.txt - X's turn
+state_905.txt - X's turn
+state_906.txt - X's turn
+state_907.txt - X's turn
+state_908.txt - X's turn
+state_909.txt - X's turn
+state_91.txt - X's turn
+state_910.txt - X's turn
+state_911.txt - X's turn
+state_912.txt - X's turn
+state_913.txt - X's turn
+state_914.txt - X's turn
+state_915.txt - X's turn
+state_917.txt - X's turn
+state_918.txt - X's turn
+state_92.txt - X's turn
+state_920.txt - X's turn
+state_921.txt - X's turn
+state_922.txt - X's turn
+state_923.txt - X's turn
+state_924.txt - X's turn
+state_925.txt - X's turn
+state_926.txt - X's turn
+state_927.txt - X's turn
+state_928.txt - X's turn
+state_929.txt - X's turn
+state_93.txt - X's turn
+state_930.txt - X's turn
+state_931.txt - X's turn
+state_932.txt - X's turn
+state_933.txt - X's turn
+state_934.txt - X's turn
+state_935.txt - X's turn
+state_936.txt - X's turn
+state_937.txt - X's turn
+state_938.txt - X's turn
+state_939.txt - X's turn
+state_940.txt - X's turn
+state_941.txt - X's turn
+state_942.txt - X's turn
+state_943.txt - X's turn
+state_944.txt - X's turn
+state_945.txt - X's turn
+state_946.txt - X's turn
+state_947.txt - X's turn
+state_948.txt - X's turn
+state_949.txt - X's turn
+state_95.txt - X's turn
+state_950.txt - X's turn
+state_951.txt - X's turn
+state_952.txt - X's turn
+state_953.txt - X's turn
+state_954.txt - X's turn
+state_955.txt - X's turn
+state_956.txt - X's turn
+state_957.txt - X's turn
+state_958.txt - X's turn
+state_959.txt - X's turn
+state_96.txt - X's turn
+state_960.txt - X's turn
+state_961.txt - X's turn
+state_962.txt - X's turn
+state_963.txt - X's turn
+state_964.txt - X's turn
+state_965.txt - X's turn
+state_966.txt - X's turn
+state_967.txt - X's turn
+state_968.txt - X's turn
+state_969.txt - X's turn
+state_97.txt - X's turn
+state_970.txt - X's turn
+state_971.txt - X's turn
+state_972.txt - X's turn
+state_973.txt - X's turn
+state_974.txt - X's turn
+state_977.txt - X's turn
+state_978.txt - X's turn
+state_979.txt - X's turn
+state_981.txt - X's turn
+state_982.txt - X's turn
+state_983.txt - X's turn
+state_985.txt - X's turn
+state_986.txt - X's turn
+state_987.txt - X's turn
+state_988.txt - X's turn
+state_989.txt - X's turn
+state_99.txt - X's turn
+state_990.txt - X's turn
+state_991.txt - X's turn
+state_992.txt - X's turn
+state_993.txt - X's turn
+state_994.txt - X's turn
+state_995.txt - X's turn
+state_996.txt - X's turn
+state_997.txt - X's turn
+state_998.txt - X's turn
+state_999.txt - X's turn
+
+X WINS STATES (Count: 107):
+-----------------------------------
+state_1162.txt
+state_1163.txt
+state_1167.txt
+state_1172.txt
+state_1173.txt
+state_1176.txt
+state_1177.txt
+state_1178.txt
+state_1179.txt
+state_1183.txt
+state_1186.txt
+state_1187.txt
+state_1189.txt
+state_1190.txt
+state_1192.txt
+state_1195.txt
+state_1196.txt
+state_1219.txt
+state_1221.txt
+state_1222.txt
+state_1233.txt
+state_1235.txt
+state_1261.txt
+state_1262.txt
+state_1272.txt
+state_1273.txt
+state_1277.txt
+state_1280.txt
+state_1281.txt
+state_1282.txt
+state_1304.txt
+state_1306.txt
+state_1308.txt
+state_1331.txt
+state_1333.txt
+state_1374.txt
+state_1375.txt
+state_1400.txt
+state_1402.txt
+state_1411.txt
+state_1413.txt
+state_1417.txt
+state_1420.txt
+state_1421.txt
+state_1422.txt
+state_1441.txt
+state_1443.txt
+state_1448.txt
+state_1450.txt
+state_1461.txt
+state_1463.txt
+state_1473.txt
+state_1483.txt
+state_1485.txt
+state_1489.txt
+state_1491.txt
+state_1493.txt
+state_1494.txt
+state_1496.txt
+state_1498.txt
+state_1499.txt
+state_1500.txt
+state_1501.txt
+state_1503.txt
+state_1509.txt
+state_1512.txt
+state_1564.txt
+state_1570.txt
+state_1571.txt
+state_1574.txt
+state_1579.txt
+state_1581.txt
+state_1807.txt
+state_1808.txt
+state_1814.txt
+state_1817.txt
+state_1820.txt
+state_1823.txt
+state_1826.txt
+state_1839.txt
+state_1840.txt
+state_239.txt
+state_246.txt
+state_251.txt
+state_256.txt
+state_311.txt
+state_313.txt
+state_316.txt
+state_317.txt
+state_401.txt
+state_403.txt
+state_405.txt
+state_407.txt
+state_444.txt
+state_446.txt
+state_451.txt
+state_456.txt
+state_480.txt
+state_482.txt
+state_483.txt
+state_543.txt
+state_544.txt
+state_561.txt
+state_565.txt
+state_591.txt
+state_593.txt
+state_613.txt
+
+O WINS STATES (Count: 192):
+-----------------------------------
+state_1009.txt
+state_1013.txt
+state_1021.txt
+state_1025.txt
+state_1049.txt
+state_1053.txt
+state_1054.txt
+state_1058.txt
+state_106.txt
+state_1073.txt
+state_1076.txt
+state_1080.txt
+state_1090.txt
+state_1094.txt
+state_1107.txt
+state_1110.txt
+state_1112.txt
+state_1114.txt
+state_1115.txt
+state_1116.txt
+state_1117.txt
+state_1118.txt
+state_1120.txt
+state_1122.txt
+state_1123.txt
+state_1124.txt
+state_1126.txt
+state_1128.txt
+state_1129.txt
+state_1130.txt
+state_1132.txt
+state_1133.txt
+state_1583.txt
+state_1584.txt
+state_1585.txt
+state_1587.txt
+state_1596.txt
+state_1598.txt
+state_1599.txt
+state_1601.txt
+state_1602.txt
+state_1603.txt
+state_1604.txt
+state_1605.txt
+state_1606.txt
+state_1607.txt
+state_1609.txt
+state_1611.txt
+state_1612.txt
+state_1613.txt
+state_1614.txt
+state_1616.txt
+state_1617.txt
+state_1618.txt
+state_1619.txt
+state_1623.txt
+state_1649.txt
+state_1652.txt
+state_1653.txt
+state_1656.txt
+state_1658.txt
+state_1660.txt
+state_1661.txt
+state_1662.txt
+state_1663.txt
+state_1664.txt
+state_1666.txt
+state_1667.txt
+state_1669.txt
+state_1670.txt
+state_1671.txt
+state_1672.txt
+state_1673.txt
+state_1674.txt
+state_1675.txt
+state_1677.txt
+state_1678.txt
+state_1680.txt
+state_1681.txt
+state_1682.txt
+state_1684.txt
+state_1688.txt
+state_1710.txt
+state_1714.txt
+state_1728.txt
+state_1730.txt
+state_1731.txt
+state_1732.txt
+state_1734.txt
+state_1735.txt
+state_1745.txt
+state_1746.txt
+state_1755.txt
+state_1759.txt
+state_1773.txt
+state_1774.txt
+state_1776.txt
+state_1777.txt
+state_1786.txt
+state_1788.txt
+state_1789.txt
+state_1790.txt
+state_1792.txt
+state_1793.txt
+state_1798.txt
+state_1799.txt
+state_1801.txt
+state_1802.txt
+state_198.txt
+state_201.txt
+state_204.txt
+state_208.txt
+state_209.txt
+state_214.txt
+state_630.txt
+state_634.txt
+state_635.txt
+state_641.txt
+state_643.txt
+state_646.txt
+state_648.txt
+state_649.txt
+state_653.txt
+state_654.txt
+state_658.txt
+state_661.txt
+state_663.txt
+state_666.txt
+state_668.txt
+state_669.txt
+state_670.txt
+state_671.txt
+state_672.txt
+state_70.txt
+state_706.txt
+state_708.txt
+state_712.txt
+state_724.txt
+state_728.txt
+state_732.txt
+state_737.txt
+state_739.txt
+state_740.txt
+state_744.txt
+state_745.txt
+state_747.txt
+state_750.txt
+state_752.txt
+state_754.txt
+state_755.txt
+state_757.txt
+state_759.txt
+state_760.txt
+state_761.txt
+state_762.txt
+state_765.txt
+state_767.txt
+state_773.txt
+state_775.txt
+state_778.txt
+state_782.txt
+state_785.txt
+state_787.txt
+state_789.txt
+state_790.txt
+state_791.txt
+state_792.txt
+state_795.txt
+state_797.txt
+state_801.txt
+state_802.txt
+state_803.txt
+state_808.txt
+state_810.txt
+state_812.txt
+state_82.txt
+state_851.txt
+state_852.txt
+state_855.txt
+state_859.txt
+state_87.txt
+state_886.txt
+state_889.txt
+state_893.txt
+state_916.txt
+state_919.txt
+state_94.txt
+state_975.txt
+state_976.txt
+state_98.txt
+state_980.txt
+state_984.txt
+
+DRAW STATES (Count: 31):
+----------------------------------
+state_1803.txt
+state_1804.txt
+state_1805.txt
+state_1806.txt
+state_1809.txt
+state_1810.txt
+state_1811.txt
+state_1812.txt
+state_1813.txt
+state_1815.txt
+state_1816.txt
+state_1818.txt
+state_1819.txt
+state_1821.txt
+state_1822.txt
+state_1824.txt
+state_1825.txt
+state_1827.txt
+state_1828.txt
+state_1829.txt
+state_1830.txt
+state_1831.txt
+state_1832.txt
+state_1833.txt
+state_1834.txt
+state_1835.txt
+state_1836.txt
+state_1837.txt
+state_1838.txt
+state_1841.txt
+state_1842.txt
