@@ -10,36 +10,50 @@ from tkinter import messagebox
 
 # In the students.txt file, each field provided tests all cases, including empty fields and duplicate names (See Charlie fields)
 
-# =================== Other Functions ===================
+# The example lecturer has login information as :
+# lecturer, lecturer123
+
+
+
+# =================== Other Functions & Variables ===================
 def get_field(fields, index):
     #Gets the field at the specified index, returns "N/A" if index is out of range
-    #While this mostly likely wouldnt happen in the code, the file could be edited manually, causing an error
+    #While this mostly likely wouldnt happen in the code, the file could be edited manually, causing an error if not
 
     try:
-        value = fields[index].strip()
+        field = fields[index]
+        if type(field)== Entry or type(field) == StringVar:
+            # If it's an widget, gets the value
+            value = field.get().strip()
+        else:
+            #A string or other type
+            value = str(field).strip()
         return value if value else "N/A"
-    
+    # the N/A is for if the field has no values/is missing
     except IndexError:
         return "N/A"
 
-student_filename="Semester_2\\Week_14 Summative\\students.txt"
-lecturer_filename="Semester_2\\Week_14 Summative\\lecturers.txt"
+
+#Loading the image
+def get_logo(frame,x1,y1):
+    img = PhotoImage(file="University_Logo.png")
+    img = img.subsample(1, 1)
+    label = Label(frame, image=img)
+    # Putting it onto the frame so that a white square doesnt appear
+    label.image = img
+    label.place(x=x1, y=y1)
+
+
+# file paths for the text files
+student_filename="students.txt"
+lecturer_filename="lecturers.txt"
+
 
 # =================== GUI Setup ===================
 window=Tk()
 window.title("University of Winchester")
 window.geometry("700x600")
 bg_colour="#6b2b63"
-
-
-#Loading the image
-def get_logo(frame,x1,y1):
-    img = PhotoImage(file="Semester_2\\Week_14 Summative\\University_Logo.png")
-    img = img.subsample(1, 1)
-    label = Label(frame, image=img)
-    # Putting it onto the frame so that a white square doesnt appear
-    label.image = img
-    label.place(x=x1, y=y1)
 
 
 def show_frame(frame):
@@ -51,7 +65,6 @@ main_menu = Frame(window, bg=bg_colour, width=700, height=600)
 student_registration = Frame(window, bg=bg_colour, width=700, height=600)
 universal_login = Frame(window, bg=bg_colour ,width=700, height=600)
 student_data = Frame(window, bg=bg_colour, width=700, height=600)
-
 view_students = Frame(window, bg=bg_colour, width=700 , height=600)
 
 
@@ -67,8 +80,6 @@ get_logo(main_menu,290,30)
 Button(main_menu, text = "Universal Login", font = ("Arial",10), bg = "White", command=lambda : show_frame(universal_login)).place(x=300,y=170)
 Button(main_menu, text = "Student Register", font = ("Arial",10), bg = "White", command=lambda : show_frame(student_registration)).place(x=295,y=200)
 
-
-# The Current Active User
 
 
 # Specific user type buttons
@@ -106,16 +117,16 @@ for i in range(len(label_names)):
 
 
 def submit():
-    name = get_field(entries, 0).get().title()
-    password = get_field(entries, 1).get()
-    email=get_field(entries, 2).get()
-    pronouns = get_field(entries, 3).get()
-    dob = get_field(entries, 4).get()
-    address= get_field(entries, 5).get().title()
-    term_address= get_field(entries, 6).get().title()
-    emergency_contact_name = get_field(entries, 7).get().title()
-    emergency_contact_no = get_field(entries, 8).get()
-    course = get_field(entries, 9).get().title()
+    name = get_field(entries, 0).title()
+    password = get_field(entries, 1)
+    email=get_field(entries, 2)
+    pronouns = get_field(entries, 3)
+    dob = get_field(entries, 4)
+    address= get_field(entries, 5).title()
+    term_address= get_field(entries, 6).title()
+    emergency_contact_name = get_field(entries, 7).title()
+    emergency_contact_no = get_field(entries, 8)
+    course = get_field(entries, 9).title()
 
     if not all([name,password,email, pronouns, dob, address, term_address, emergency_contact_name, emergency_contact_no, course]):
         messagebox.showerror("Error", "Missing Fields, Please Complete them before continuing!")
@@ -138,12 +149,13 @@ Button(student_registration, text = "Back to Main Menu", font = ("Arial",10),bg=
 
 
 # =================== Universal Login ===================
+## Allows loging of both students and lecturers
+## Uses a dropdown menu to select the users type
 def check_credentials():
     global current_user, current_password, current_user_type
-
-    user_type = selected_option.get()
-    name= login_name_entry.get()
-    password = login_password_entry.get()
+    user_type = get_field(selected_option.get().split(","), 0)
+    name= get_field(login_name_entry.get().split(","), 0).title()
+    password = get_field(login_password_entry.get().split(","), 0)
 
     # Used to access either lecturers or students text file
     filename = ""
@@ -237,6 +249,7 @@ Button(universal_login, text = "Back to Main Menu", font = ("Arial",10), bg = "W
 # Displays the student data
 
 def load_student_data():
+    entries.clear()  # Clear the entries list to avoid duplicates
     try:
 
         get_logo(student_data,290,30)
@@ -268,7 +281,8 @@ def load_student_data():
 
         def save_changes():
             updated_data = [entry.get() for entry in entries]
-            print("Data to save:", updated_data)  # Debug output
+            print("Data to save:", updated_data)
+
             if not all(updated_data):
                 messagebox.showerror("Error", "Please complete all fields before saving!")
                 return
@@ -283,7 +297,7 @@ def load_student_data():
             out_file.close()
 
             messagebox.showinfo("Success", "Data Saved")
-        save_button = Button(student_data, text = "Save Changes", font = ("Arial", 10), bg = "White", command=save_changes())
+        save_button = Button(student_data, text = "Save Changes", font = ("Arial", 10), bg = "White", command=save_changes)
         save_button.place(x=300, y=500)
         ##Currently running into the problem where students can preview other students data
         # Add buttons inside the function so they are recreated every time
@@ -325,8 +339,8 @@ for line in in_file:
         # Start with the Name field on its own line:
         text_widget.insert(END, f"{get_field(split_line, 0)}\n")
         
-        # For the rest, print label: value pairs, skipping index 1 if it’s unused
-        for i in range(1, len(label_names)):
+        # For the rest, it prints the label value pairs, skipping 1, and doesnt show the password
+        for i in range(2, len(label_names)):
             label = label_names[i]
             value = get_field(split_line, i)
             text_widget.insert(END, f"{label}: {value}\n")
