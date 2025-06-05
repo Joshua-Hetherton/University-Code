@@ -1,19 +1,16 @@
-O X O X
-_ _ O X
-O X O X
-O X _ O
-Turn: X
+X _ _
+X _ _
+X O O
+Turn: O
+Winner: X
 
-GAME IN PROGRESS - X's turn
-Parent states: 3
-Child states: 3
+GAME OVER - X wins
+Parent states: 2
+Child states: 0
 
 Possible next moves:
-  Move 1: (1,1) -> state_1173.txt
-  Move 2: (1,0) -> state_1170.txt
-  Move 3: (3,2) -> state_1174.txt
+  None (terminal state)
 
 Parent states (moves that led here):
-  Parent 1: state_240.txt
-  Parent 2: state_253.txt
-  Parent 3: state_563.txt
+  Parent 1: state_229.txt
+  Parent 2: state_232.txt

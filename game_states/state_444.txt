@@ -1,7 +1,6 @@
-_ X O X
-O X O X
-O X O _
-O X _ _
+X X X
+O _ _
+_ O _
 Turn: O
 Winner: X
 
@@ -13,5 +12,5 @@ Possible next moves:
   None (terminal state)
 
 Parent states (moves that led here):
-  Parent 1: state_150.txt
-  Parent 2: state_153.txt
+  Parent 1: state_147.txt
+  Parent 2: state_150.txt

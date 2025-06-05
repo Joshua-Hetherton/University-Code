@@ -1,7 +1,6 @@
-O O O X
-_ X O X
-O X X _
-O X _ O
+X O O
+X O _
+_ _ X
 Turn: X
 
 GAME IN PROGRESS - X's turn
@@ -9,11 +8,11 @@ Parent states: 3
 Child states: 3
 
 Possible next moves:
-  Move 1: (1,0) -> state_1207.txt
-  Move 2: (3,2) -> state_1258.txt
-  Move 3: (2,3) -> state_1259.txt
+  Move 1: (1,2) -> state_1251.txt
+  Move 2: (2,1) -> state_1259.txt
+  Move 3: (2,0) -> state_1264.txt
 
 Parent states (moves that led here):
-  Parent 1: state_284.txt
-  Parent 2: state_298.txt
-  Parent 3: state_386.txt
+  Parent 1: state_263.txt
+  Parent 2: state_269.txt
+  Parent 3: state_371.txt

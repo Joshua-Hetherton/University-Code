@@ -1,19 +1,15 @@
-X X O X
-O O O X
-O X O O
-O X X X
+X O X
+O X O
+X O X
 Turn: O
-Game ended in a draw
+Winner: X
 
-GAME OVER - Draw
-Parent states: 4
+GAME OVER - X wins
+Parent states: 1
 Child states: 0
 
 Possible next moves:
   None (terminal state)
 
 Parent states (moves that led here):
-  Parent 1: state_1757.txt
-  Parent 2: state_1760.txt
-  Parent 3: state_1771.txt
-  Parent 4: state_1784.txt
+  Parent 1: state_1680.txt

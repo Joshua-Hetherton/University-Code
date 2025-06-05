@@ -7,25 +7,25 @@ if __name__ == "__main__":
     # Create a 3x3 board with half of the positions filled
     # (X plays first, then O, then X, etc.)
     #Question 16 -----------------------------------------------------------------
-    # board=Board(size=3)
-    # board=board.place_marker(1,1, Player.X)
+    board=Board(size=3)
+    board=board.place_marker(0,0, Player.X)
     ##----------------------------------------------------------------------------
     
     ##Question 17-----------------------------------------------------------------
-    board=Board(size=4)
-    #Working from Left to right by row
-    #0
-    board=board.place_marker(0,2,Player.O)
-    board=board.place_marker(0,3,Player.X)
-    #1
-    board=board.place_marker(1,2,Player.O)
-    board=board.place_marker(1,3,Player.X)
-    #2
-    board=board.place_marker(2,0,Player.O)
-    board=board.place_marker(2,1,Player.X)
-    #3
-    board=board.place_marker(3,0,Player.O)
-    board=board.place_marker(3,1,Player.X)
+    # board=Board(size=4)
+    # #Working from Left to right by row
+    # #0
+    # board=board.place_marker(0,2,Player.O)
+    # board=board.place_marker(0,3,Player.X)
+    # #1
+    # board=board.place_marker(1,2,Player.O)
+    # board=board.place_marker(1,3,Player.X)
+    # #2
+    # board=board.place_marker(2,0,Player.O)
+    # board=board.place_marker(2,1,Player.X)
+    # #3
+    # board=board.place_marker(3,0,Player.O)
+    # board=board.place_marker(3,1,Player.X)
 
     ##----------------------------------------------------------------------------
     ##TEST CASE-----------------------------------------------------
