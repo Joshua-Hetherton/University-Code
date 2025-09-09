@@ -77,6 +77,7 @@ Button(student_registration, text="Register", font=("Arial",10),bg="White", comm
 ## Needs editing to just use an array cus this is too much--------------
 
 def write_to_file():
+    
     student_name = student_name_entry.get()
     student_pronouns = student_pronouns_entry.get()
     student_DOB = student_DOB_entry.get()
