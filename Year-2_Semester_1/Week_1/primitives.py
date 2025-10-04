@@ -32,6 +32,5 @@ def func():
     print("Hello World")
     x=5 * 7
     num=input("")
-    match num
-
+    
 func()
