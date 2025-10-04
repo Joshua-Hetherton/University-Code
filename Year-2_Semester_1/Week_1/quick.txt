@@ -1,0 +1,22 @@
+if shoes exist:
+    if shoes has shoelaces:
+
+        if shoelaces are untied:
+            
+            cross_laces(lace_L,lace_R)
+            pull(lace_L,lace_R)
+            #Looping left lace
+            loop_left = make_loop(lace_L)
+            #Wrapping right lace around left lace
+            wrap(lace_R)
+            loop_right = make loop(lace_R)
+
+            tighten(lace_L,lace_R)
+
+
+        else:
+            print "already tied"
+    else:
+        print "doesnt have shoelaces"
+else:
+    print "there are no shoes"
