@@ -1,0 +1,9 @@
+ipython
+ipythonblocks
+ipywidgets
+jupyter
+matplotlib
+networkx
+numpy
+pillow
+sortedcontainers
