@@ -1,0 +1,7 @@
+ipython
+ipythonblocks
+ipywidgets
+jupyter
+networkx
+numpy
+sortedcontainers
