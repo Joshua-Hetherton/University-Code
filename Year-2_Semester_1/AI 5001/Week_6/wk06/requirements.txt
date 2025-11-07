@@ -1,0 +1,6 @@
+ipython
+ipythonblocks
+ipywidgets
+jupyter
+matplotlib
+numpy
