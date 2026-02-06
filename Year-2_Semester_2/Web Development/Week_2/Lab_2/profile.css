@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#232A45;
+}
+
+.card {
+    background-color:rgba(43, 48, 120, 0.902);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+    color:white
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+
+}
+
+.bio {
+    margin-top: 10px;
+    color: #ffffff70;
+}
+
+.card img{
+    padding-top: 20px;
+
+}
