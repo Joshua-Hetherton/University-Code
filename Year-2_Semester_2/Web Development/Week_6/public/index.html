@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>API Tester</title>
+</head>
+
+<body style="padding: 20px; font-family: sans-serif;">
+    <h1>Lab 6: Frontend-Backend Bridge</h1>
+
+    <input type="text" id="title" placeholder="Post Title"><br><br>
+
+    <textarea id="content" placeholder="Post Content"></textarea><br><br>
+    <button onclick="sendData()">Send to Server</button>
+    <hr>
+    <h3>Data Currently on Server:</h3>
+    <div id="output"></div>
+    <script>
+        // FUNCTION 1: Fetch data from the Server (GET)
+        async function loadPosts() {
+            const response = await fetch('/feed/posts');
+            const data = await response.json();
+
+            document.getElementById('output').innerHTML = data.posts.map(p => `<div><strong>${p.title}</strong>: ${p.content}</div>`).join('');
+        }
+        // FUNCTION 2: Send data to the Server (POST)
+        async function sendData() {
+            const title = document.getElementById('title').value;
+            const content = document.getElementById('content').value;
+
+            await fetch('/feed/post', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ title, content })
+            });
+            loadPosts(); // Refresh the list
+        }
+        loadPosts(); // Initial load
+    </script>
+</body>
+</html>
