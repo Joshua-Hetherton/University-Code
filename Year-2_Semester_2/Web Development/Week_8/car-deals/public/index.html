@@ -1,0 +1,63 @@
+<!DOCTYPE html><!-- This notifies browsers that we are using HTML5-->
+<html>
+    <!-- The <head> section contains basic info, including title, description, links
+    to CSS, car content JS file, and app.js for initialising the JavaScript
+    application -->
+    <head>
+        <meta charset="utf-8"> <!--Specifies the utf-8 character set-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--The
+        viewport meta tag adjusts scaling across devices-->
+        <meta name="theme-color" content="#812A34">
+        <meta property="og:image" content="icons/icon-512.png"> <!--Setting the
+        favicon-->
+
+        <!--The next four lines set title, description, author, and shortcut icon.-->
+        <title>Car-Deals</title>
+        <meta name="description" content="Cool, reliable, used car deals">
+        <meta name="author" content="sd">
+
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css"> <!--Loads and sets the path to the
+        style.css stylesheet.-->
+
+        <!--The next three lines load-in our CSS and JS files for material-design-
+        lite.-->
+        <link rel="stylesheet" href="resources/material-design-lite/material.red-
+        indigo.min.css" />
+        <script src="resources/material-design-lite/material.min.js"></script>
+    </head>
+
+    <body>
+        <!--You will notice we are using MDL classes like mdl-layout and mdl-
+        layout__header. This allows the browser to render the navigation bar and
+        background images immediately while the "Car Cards" are still loading in the
+        background.-->
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Car Deals</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <img src="img/car-deals.png" alt="JacksonGarage">
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <h1>Jackson's Garage</h1>
+            <p class="description">The best car deals on the Web!</p>
+
+            <section id="content">
+                <!-- Content inserted in here -->
+            </section>
+        </main>
+
+        <footer>
+            <p>© jKGarage 2012–2019, website created and maintained by Awesome
+            Websites</p>
+        </footer>
+
+        <script src="data/car-deals.js"></script> <!--Path to car-deals.js-->
+        <script src="scripts/car-logic.js"></script> <!--Path to car-logic.js-->
+
+    </body>
+</html>
