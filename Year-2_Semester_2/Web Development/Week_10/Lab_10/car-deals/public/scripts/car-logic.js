@@ -1,83 +1,70 @@
-// This function swaps the placeholder for the real car photo
-function loadImages(img) {
+//Registering Service Worker
+if ('serviceWorker' in navigator) {
+ navigator.serviceWorker.register('sw.js');
+}
 
-    // 1. Get the real image path from the data-src attribute
+
+// Function to swap placeholder for real car photo
+function loadImages(img) {
     const realImage = img.getAttribute('data-src');
 
-    // 2. If it exists, swap it into the src attribute
     if (realImage) {
         img.src = realImage;
-
-        // 3. Once the high-res image loads, remove the data-src attribute
-        // This triggers the CSS transition to remove the blur
         img.onload = () => {
             img.removeAttribute('data-src');
         };
     }
 }
 
-// Generating content based on the template
-var template = "<article>\n\
-<img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>\n\
-<h3>#POS. NAME</h3>\n\
-<ul>\n\
-<li><span>Price:</span> <strong>PRICE</strong></li>\n\
-<li><span>Brand:</span> <strong>BRAND</strong></li>\n\
-<li><span>Model:</span> <strong>MODEL</strong></li>\n\
-<li><span>Year:</span> <strong>YEAR</strong></li>\n\
-</ul>\n\
-</article>";
+// Using Template Literals to populate car information and dialog details
+const renderCar = (car, index) => `
+<article onclick="document.querySelector('.${car.slug}').showModal();">
+    <img src="data/img/placeholder.png" data-src="data/img/${car.slug}.jpg" alt="${car.name}">
+    <h3>#${index + 1}. ${car.name}</h3>
+    <ul>
+        <li><span>Price:</span> <strong>${car.price}</strong></li>
+        <li><span>Brand:</span> <strong>${car.brand}</strong></li>
+        <li><span>Model:</span> <strong>${car.model}</strong></li>
+        <li><span>Year:</span> <strong>${car.year}</strong></li>
+    </ul>
+</article>
+<dialog class="mdl-dialog ${car.slug}">
+    <h4 class="mdl-dialog__title">${car.name}</h4>
+    <div class="mdl-dialog__content">
+        <p>Type: ${car.type}</p>
+        <p>Fuel type: ${car.fuel_type}</p>
+        <p>Gear: ${car.gear}</p>
+        <p>Mileage: ${car.mileage}</p>
+        <p>Description: ${car.description}</p>
+    </div>
+    <div class="mdl-dialog__actions">
+        <button type="button" class="mdl-button close"
+            onclick="document.querySelector('.${car.slug}').close();">
+            Close
+        </button>
+    </div>
+</dialog>
+`;
 
-var content = '';
-
-for (var i = 0; i < cars.length; i++) {
-
-    // Below: Define a variable called *entry*. Replace the placeholders by pulling in cars data from the cardeals.js file
-    var entry = template
-        .replace(/POS/g, (i + 1))
-        .replace(/SLUG/g, cars[i].slug)
-        .replace(/NAME/g, cars[i].name)
-        .replace(/PRICE/g, cars[i].price)
-        .replace(/BRAND/g, cars[i].brand)
-        .replace(/MODEL/g, cars[i].model)
-        .replace(/YEAR/g, cars[i].year);
-
-    entry = entry.replace('<a href=\'http://\'></a>', '-');
-
-    // Adds the created entry variable to the content variable
-    content += entry;
-}
+// Generate all car tiles + dialogs
+let content = cars.map((car, index) => renderCar(car, index)).join('');
 
 document.getElementById('content').innerHTML = content;
-// Get the HTML element, ‘content’, and set its HTML content to the content variable created above
 
-var imagesToLoad = document.querySelectorAll('img[data-src]');
+// Lazy-load images
+let imagesToLoad = document.querySelectorAll('img[data-src]');
 
 if ('IntersectionObserver' in window) {
-
-    var observer = new IntersectionObserver(function (items, observer) {
-
-        items.forEach(function (item) {
-
+    let observer = new IntersectionObserver((items, observer) => {
+        items.forEach(item => {
             if (item.isIntersecting) {
                 loadImages(item.target);
                 observer.unobserve(item.target);
             }
-
         });
-
     });
 
-    imagesToLoad.forEach(function (img) {
-        observer.observe(img);
-    });
-
+    imagesToLoad.forEach(img => observer.observe(img));
 } else {
-
-    imagesToLoad.forEach(function (img) {
-
-        loadImages(img);
-
-    });
-
+    imagesToLoad.forEach(img => loadImages(img));
 }
